@@ -149,7 +149,9 @@ public class Ropa {
     
     
     public boolean verifica(char opcion, char inicio, char fin){
-        return opcion >= inicio && opcion <= fin;
+        //return opcion >= inicio && opcion <= fin;
+        if (opcion >= inicio && opcion <= fin) return true;
+        else return false;
     }
     
     public String toString(){
